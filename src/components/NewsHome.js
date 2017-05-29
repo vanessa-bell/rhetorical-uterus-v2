@@ -33,12 +33,12 @@ class NewsHome extends Component {
     return (
      <section id="recent-news" name="recent-news">
       <header className="row">
-        <div className="col-lg-11 col-md-11 col-sm-11 col-xs-11">
+        <div className="col-lg-11 col-md-11 col-sm-11 col-xs-12">
           <h1 className="section-header pull-right">in the news</h1>
         </div>
       </header>
       <div className="row">
-        <div className="col-lg-11 col-md-11 col-sm-11 col-xs-11">
+        <div className="col-lg-11 col-md-11 col-sm-11 col-xs-12">
           <h3 className="first-line pull-right">catch up on the latest news on abortion</h3>
         </div>
       </div>
@@ -50,7 +50,7 @@ class NewsHome extends Component {
                 <div className="row">
                   <div className="col-lg-10 col-md-10 col-sm-10 col-xs-11">
                     <h3>{article.headline.main}</h3>
-                    <p>{moment(article.pub_date).format('MMMM Do, YYYY')}</p>
+                    <p>{article.pub_date !== null ? moment(article.pub_date).format('MMMM Do, YYYY') : ''}</p>
                     <p className="snippet">{article.snippet}</p>
                     <p><a href={article.web_url} target="_blank" rel="noopener noreferrer">read more ></a></p>
                   </div>
