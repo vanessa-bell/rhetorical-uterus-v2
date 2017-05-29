@@ -205,8 +205,12 @@ a:focus, a:hover {
 
 #recent-news {
   background-color: rgb(243, 243, 243);
+  height: 80vh !important;
 }
 
+.news-articles {
+  list-style: none;
+}
 input {
   text-align: center;
   border: 2px solid;
@@ -230,6 +234,35 @@ footer {
 
 #footer-logo {
   max-height: 100px;
+}
+
+.scrollable {
+  max-height: 70vh;
+  overflow-y: scroll;
+  overflow-x: hidden;
+  padding: 10px;
+}
+
+.scrollable::-webkit-scrollbar {
+    width: 1em;
+}
+
+.scrollable::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px rgb(215, 230, 253);
+    border-radius: 10px;
+}
+ 
+.scrollable::-webkit-scrollbar-thumb {
+  background-color: rgb(38, 83, 165);
+  outline: 1px solid rgb(215, 230, 253);
+  border-radius: 10px;
+}
+
+.thumbnail {
+  border-radius: 10px;
+  margin-top: 20px;
+  max-width: 90px;
+  max-height: 90px;
 }
 
 
