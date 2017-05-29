@@ -43,18 +43,18 @@ class NewsHome extends Component {
         </div>
       </div>
       <div className="row">
-        <div className="col-lg-11 col-md-11 col-sm-11 col-xs-11">
+        <div className="col-lg-11 col-md-11 col-sm-11 col-xs-12">
           <ul className="news-articles text-right scrollable">
             {this.state.articles.map(article =>
               <li key={article._id}>
                 <div className="row">
-                  <div className="col-lg-10 col-md-10 col-sm-10 col-xs-10">
+                  <div className="col-lg-10 col-md-10 col-sm-10 col-xs-11">
                     <h3>{article.headline.main}</h3>
                     <p>{moment(article.pub_date).format('MMMM Do, YYYY')}</p>
                     <p className="snippet">{article.snippet}</p>
                     <p><a href={article.web_url} target="_blank" rel="noopener noreferrer">read more ></a></p>
                   </div>
-                  <div className="col-lg-2 col-md-2 col-sm-2 col-xs-2">
+                  <div className="col-lg-2 col-md-2 col-sm-2 col-xs-1">
                       {
                         <img className="thumbnail" src={article.multimedia.length ? 'http://www.nytimes.com/' + article.multimedia[0].url : 'http://www.sgberman.com/wp-content/uploads/2014/10/nyt.png'} alt="article thumbnail"/>
                       }
