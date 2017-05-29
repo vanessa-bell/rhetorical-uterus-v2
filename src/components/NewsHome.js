@@ -56,7 +56,7 @@ class NewsHome extends Component {
                   </div>
                   <div className="col-lg-2 col-md-2 col-sm-2 col-xs-1">
                       {
-                        <img className="thumbnail" src={article.multimedia.length ? 'http://www.nytimes.com/' + article.multimedia[0].url : 'http://www.sgberman.com/wp-content/uploads/2014/10/nyt.png'} alt="article thumbnail"/>
+                        <img className="thumbnail img img-responsive" src={article.multimedia.length ? 'http://www.nytimes.com/' + article.multimedia[0].url : 'http://www.sgberman.com/wp-content/uploads/2014/10/nyt.png'} alt="article thumbnail"/>
                       }
                   </div>
                 </div>
