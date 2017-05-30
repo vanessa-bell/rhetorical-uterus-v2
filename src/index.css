@@ -204,6 +204,10 @@ a:focus, a:hover {
   color: rgb(219, 87, 88) !important;
 }
 
+.article-headline, .ready {
+  color: rgb(38, 83, 165);
+}
+
 #recent-news {
   background-color: rgb(243, 243, 243);
   height: 80vh !important;
@@ -212,12 +216,6 @@ a:focus, a:hover {
 .news-articles {
   list-style: none;
 }
-
-.article-headline, .ready {
-  color: rgb(38, 83, 165);
-}
-
-
 
 input {
   text-align: center;

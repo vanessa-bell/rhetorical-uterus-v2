@@ -1,5 +1,5 @@
 import React, {Component} from 'react'
-
+// need to pull stances from api
 class Stances extends Component {
   render() {
     return (
@@ -21,7 +21,7 @@ class Stances extends Component {
             </div>
             <div id="collapseOne" className="panel-collapse collapse" role="tabpanel" aria-labelledby="headingOne">
               <div className="panel-body">
-                “Unless and until it can be proven that the unborn child is not a living entity, then its right to life, liberty, and the pursuit of happiness must be protected.” — Ronald Reagan | <a className="red-call" href="/stance/test">read more</a>
+                “Unless and until it can be proven that the unborn child is not a living entity, then its right to life, liberty, and the pursuit of happiness must be protected.” — Ronald Reagan | <a className="red-call" href="#">read more</a>
               </div>
             </div>
           </div>
@@ -35,7 +35,7 @@ class Stances extends Component {
             </div>
             <div id="collapseTwo" className="panel-collapse collapse" role="tabpanel" aria-labelledby="headingTwo">
               <div className="panel-body">
-                "Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et." - Weo Alben | <a className="red-call" href="/stance/test">read more</a>
+                "Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et." - Weo Alben | <a className="red-call" href="#">read more</a>
               </div>
             </div>
           </div>
@@ -49,7 +49,7 @@ class Stances extends Component {
             </div>
             <div id="collapseThree" className="panel-collapse collapse" role="tabpanel" aria-labelledby="headingThree">
               <div className="panel-body">
-                "Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod." - Uiod Oidlx | <a className="red-call" href="/stance/test">read more</a>
+                "Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod." - Uiod Oidlx | <a className="red-call" href="#">read more</a>
               </div>
             </div>
           </div>
@@ -64,7 +64,7 @@ class Stances extends Component {
             </div>
             <div id="collapseFour" className="panel-collapse collapse" role="tabpanel" aria-labelledby="headingFour">
               <div className="panel-body">
-                "Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et." - Weo Alben | <a className="red-call" href="/stance/test">read more</a>
+                "Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et." - Weo Alben | <a className="red-call" href="#">read more</a>
               </div>
             </div>
           </div>
