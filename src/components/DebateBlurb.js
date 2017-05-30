@@ -27,8 +27,10 @@ class DebateBlurb extends Component {
         </div>
         <div className="row">
           <div id="ready-debate" className="col col-md-12 text-center">
-            <h3><a href="#stances">ready to debate!</a></h3>
-            <img className="down-arrow" src={downArrow} alt="downArrow"/>
+            <a href="#stances">
+              <h3 className='ready'>ready to debate!</h3>
+              <img className="down-arrow" src={downArrow} alt="downArrow"/>
+            </a>
           </div>
         </div>
           
