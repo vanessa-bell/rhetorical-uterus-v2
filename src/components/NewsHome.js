@@ -28,25 +28,25 @@ class NewsHome extends Component {
           });
         })
   }
-  
+
   render() {
     return (
      <section id="recent-news" name="recent-news">
       <header className="row">
-        <div className="col-lg-11 col-md-11 col-sm-11 col-xs-12">
+        <div className="col-lg-11 col-md-10 col-sm-8 col-xs-12">
           <h1 className="section-header pull-right">in the news</h1>
         </div>
       </header>
       <div className="row">
-        <div className="col-lg-11 col-md-11 col-sm-11 col-xs-12">
+        <div className="col-lg-12 col-md-12 col-sm-12 col-xs-12">
           <h3 className="first-line pull-right">catch up on the latest news on abortion</h3>
         </div>
       </div>
       <div className="row">
-        <div className="col-lg-11 col-md-11 col-sm-11 col-xs-12">
+        <div className="news-wrapper col-xl-7 col-lg-7 col-md-7 col-sm-11 col-xs-12">
           <ul className="news-articles text-right scrollable well">
             {this.state.articles.map(article =>
-                <li key={article._id}>
+                <li className='article-info' key={article._id}>
                   <a className='news-article-link' href={article.web_url} target="_blank" rel="noopener noreferrer">
                   <div className="row">
                     <div className="col-lg-10 col-md-10 col-sm-10 col-xs-11">
